@@ -1,0 +1,61 @@
+body
+{
+	margin: auto;
+	background-image: url("fond.jpeg");
+	font-family: Georgia;
+	line-height: normal;
+	width: 900px;
+}
+ 
+h1
+{
+	margin-top: 
+}
+
+
+.introduction
+{
+ 	margin-top:15px;
+ 	margin-right:50px;
+ 	margin-bottom:20px;
+ 	margin-left:20px;
+	width: 800px;
+	padding:10px;
+
+}
+
+main
+{
+	margin-top: 38px;
+
+}
+
+header
+{
+	background-color: rgb(170,210,230);
+} 
+
+ h2
+{
+	color: #008080;
+}
+	
+.Contact
+{
+	margin-right: 50px;
+	text-align: center;
+}
+
+
+aside
+{
+ 	float: left;  
+    display: flex;
+	flex-direction: column;
+}
+
+main
+{
+	float: center;
+}
+
