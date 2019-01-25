@@ -1,61 +1,85 @@
+html
+{
+	background-color: rgb(242,242,242);
+}
+
 body
 {
 	margin: auto;
-	background-image: url("fond.jpeg");
+	width: 850px;
+	background-color: white;
+	border: 1px black solid;
+	box-shadow: 6px 6px 6px grey;
 	font-family: Georgia;
 	line-height: normal;
-	width: 900px;
-}
- 
-h1
-{
-	margin-top: 
-}
-
-
-.introduction
-{
- 	margin-top:15px;
- 	margin-right:50px;
- 	margin-bottom:20px;
- 	margin-left:20px;
-	width: 800px;
-	padding:10px;
-
-}
-
-main
-{
-	margin-top: 38px;
-
 }
 
 header
 {
-	background-color: rgb(170,210,230);
-} 
+ 	padding: 14px;
+ 	background-color: rgb(170,210,230);
+}
+ 
+h1
+{
+	margin-left: 80px;
+	margin-top: 35px;
+}
 
+.introduction
+{
+	width: 650px;
+ 	margin-left: 15px;
+}
+ 
+img
+{
+	float: right;
+	height: 203px;
+	width: 183px;
+}
+ 
  h2
 {
 	color: #008080;
 }
-	
-.Contact
-{
-	margin-right: 50px;
-	text-align: center;
-}
-
 
 aside
 {
  	float: left;  
     display: flex;
 	flex-direction: column;
+	width: 270px;
+	height: 1124px; 
+	background-color: rgb(230,230,230); 
+}
+
+.titrec
+{
+	margin-top: 43px;
+	margin-left: 15px;
+}
+
+.Contact
+{
+	margin-right: 10px;
+	text-align: center;
 }
 
 main
 {
+	margin-left: 300px;
+	margin-top: 38px;
 	float: center;
+}
+
+footer
+{
+	background-color: rgb(170,210,230)
+}
+	
+a
+{
+	margin-left: 115px;
 }
 
